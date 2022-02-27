@@ -130,7 +130,7 @@ export default function Home() {
 						<div className={styles.el}>
 							<a href={"https://discord.com/users/180280668239036416"} target={"_blank"}>
 								<div>
-									<img src={"/discord.png"} width={"128"} height={"128"} />
+									<Image src={"/discord.png"} width={"128"} height={"128"} />
 								</div>
 								NorteX#2978
 							</a>
@@ -138,7 +138,7 @@ export default function Home() {
 						<div className={styles.el}>
 							<a href={"https://github.com/NorteX-dev"} target={"_blank"}>
 								<div>
-									<img src={"/github.png"} width={"128"} height={"128"} />
+									<Image src={"/github.png"} width={"128"} height={"128"} />
 								</div>
 								NorteX-dev
 							</a>
@@ -146,7 +146,7 @@ export default function Home() {
 						<div className={styles.el}>
 							<a href={"mailto:contact@nortex.xyz"} target={"_blank"}>
 								<div>
-									<img src={"/email.png"} width={"128"} height={"128"} />
+									<Image src={"/email.png"} width={"128"} height={"128"} />
 								</div>
 								contact@nortex.xyz
 							</a>
