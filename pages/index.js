@@ -137,6 +137,14 @@ export default function Home() {
 						</div>
 						<div className={styles.el}>
 							<div>
+								<Image src={"/github.png"} width={"128"} height={"128"} />
+							</div>
+							<a href={"https://github.com/NorteX-dev"} target={"_blank"}>
+								NorteX-dev
+							</a>
+						</div>
+						<div className={styles.el}>
+							<div>
 								<Image src={"/email.png"} width={"128"} height={"128"} />
 							</div>
 							<a href={"mailto:contact@nortex.xyz"} target={"_blank"}>
