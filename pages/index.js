@@ -128,26 +128,26 @@ export default function Home() {
 					<h1 className={styles.header}>Contact Me:</h1>
 					<div className={styles.grid}>
 						<div className={styles.el}>
-							<div>
-								<Image src={"/discord.png"} width={"128"} height={"128"} />
-							</div>
 							<a href={"https://discord.com/users/180280668239036416"} target={"_blank"}>
+								<div>
+									<img src={"/discord.png"} width={"128"} height={"128"} />
+								</div>
 								NorteX#2978
 							</a>
 						</div>
-						<div className={styles.el} style={{ marginLeft: "10px" }}>
-							<div>
-								<Image src={"/github.png"} width={"128"} height={"128"} />
-							</div>
+						<div className={styles.el}>
 							<a href={"https://github.com/NorteX-dev"} target={"_blank"}>
+								<div>
+									<img src={"/github.png"} width={"128"} height={"128"} />
+								</div>
 								NorteX-dev
 							</a>
 						</div>
 						<div className={styles.el}>
-							<div>
-								<Image src={"/email.png"} width={"128"} height={"128"} />
-							</div>
 							<a href={"mailto:contact@nortex.xyz"} target={"_blank"}>
+								<div>
+									<img src={"/email.png"} width={"128"} height={"128"} />
+								</div>
 								contact@nortex.xyz
 							</a>
 						</div>
