@@ -135,7 +135,7 @@ export default function Home() {
 								NorteX#2978
 							</a>
 						</div>
-						<div className={styles.el}>
+						<div className={styles.el} style={{ marginLeft: "10px" }}>
 							<div>
 								<Image src={"/github.png"} width={"128"} height={"128"} />
 							</div>
